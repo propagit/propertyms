@@ -1,0 +1,107 @@
+/* CSS Document */
+
+/*
+	Note:
+	
+	This uses bootstrap classes without the responsive aspect purely for grid layout and few form elements.
+
+		
+	- kaushtuvgurung@gmail.com
+*/
+@import url(bootstrap.css);
+@import url(//fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Raleway:400,100,200,300,500,600,700,900,800);
+
+
+
+
+
+/* General Layouts */
+
+body{
+	background-color:#0b0c0c;
+}
+
+body,
+h1,h2,h3,h4,h5,h6,p,input,select,textarea{
+	font-family: 'Lato', sans-serif;	
+}
+body,p{
+	color:#a6b3b6;	
+}
+
+h1,h4{
+	color:#a2aa3d;	
+}
+
+h1{
+	
+}
+h2{
+	
+}
+h3{
+	
+}
+
+p{
+		
+}
+
+div{
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  	box-sizing: border-box;         /* Opera/IE 8+ */	
+}
+
+a.active,
+a:hover,
+a:focus{
+	color:#a2aa3d;	
+}
+
+
+/* Colors */
+
+.container{
+	width:1170px !important;	
+}
+
+/* Headers */
+#logo{
+	width:400px;	
+	float:left;
+}
+#nav-wrap{
+	width:600px;	
+	float:left;	
+}
+.nav-alt{
+	width:100%;
+	float:left;
+	list-style:none;
+}
+.nav-alt li{
+	height:20px;	
+}
+.nav-alt li.active{
+	width:100%;	
+}
+.nav-alt li a{
+	color:#fff;	
+}
+
+
+/* Helpers */
+.pull{
+	float:right;	
+}
+.push{
+	float:left;	
+}
+.clear{
+	clear:both;	
+}
+
+
+
+

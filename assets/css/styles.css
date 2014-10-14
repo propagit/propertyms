@@ -21,16 +21,17 @@
 
 /* General Layouts */
 html{
-	background-image:url(../img/body-bg-gradient.jpg);
+	background-image:url(../img/bg/body-bg-gradient.jpg);
 	background-repeat: repeat-x;	
 	width:100%;
 	background-color:#000;
 }
 body{
+	height: 100%;
+	float: left;
 	background-color: transparent;
-	background-image:url(../img/body-bg.jpg);
-	background-repeat: no-repeat;
 	overflow-x:hidden;
+	background-repeat: no-repeat;	
 }
 
 body,
@@ -90,10 +91,20 @@ hr{
 	border-top: 1px solid rgba(255,255,255,0.2);	
 }
 
+/* Background images */
+.about-us-bg{
+	background-image:url(../img/bg/about-bg.jpg);
+}
+.service-bg{
+	background-image:url(../img/bg/service-bg.jpg);	
+}
+
 /* Bootstrap Overwrites */
 
 .container{
 	width:1030px !important;	
+	float:left;
+	margin-left:125px;
 }
 
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12{
@@ -163,7 +174,8 @@ hr{
 }
 
 #body-wrap{
-	padding-top:65px;	
+	padding-top:65px;
+	float:left;
 }
 .banner-wrap{
 	margin-top:25px;
@@ -196,6 +208,7 @@ hr{
 #footer-wrap{
 	margin-top:50px;
 	margin-bottom:50px;
+	float:left;
 }
 #footer-wrap span{
 	color:#5a5a5a;

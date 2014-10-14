@@ -12,7 +12,7 @@
 <?php
 	$cur_page = $this->uri->segment(1);
 ?>
-<body>
+<body <?=$cur_page ? 'class="'.$cur_page.'-bg"' : '';?>>
 <header>
     <div id="head-wrap">
         <div class="container">

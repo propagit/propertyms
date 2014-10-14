@@ -91,7 +91,8 @@ class Content extends CI_Controller {
 			# proceed with sending email
 			$data_email['message'] = $this->input->post();
 			$message = $this->load->view('email/contact_us',$data_email,true);
-			$to = 'kaushtuv@propagate.com.au';
+			# $to = 'kaushtuv@propagate.com.au';
+			$to = 'team@propagate.com.au';
 			
 			$email_data = array(
 					'to' => $to ? $to : INFO_EMAIL,

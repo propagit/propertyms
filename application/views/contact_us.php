@@ -54,15 +54,17 @@ $('#send-msg').click(function(){
 		type:'POST',
 		dataType:'JSON',
 		success:function(data){
+			var form_id = 'contact-form';
 			if (!data.ok) { 
 				// Invalid
 				var errors = data.errors;
-				var form_id = 'contact-form';
 				//reset error class in form as they will need to be re validated
 				remove_error_class(form_id);
 				mark_errors(form_id,errors);
 			}else{
 				$('#contact-result').html('Your message was successfully sent.').removeClass('bg-danger').addClass('bg-success').show();
+				remove_error_class(form_id);
+				$('#'+form_id)[0].reset();
 			}
 		}
 	});

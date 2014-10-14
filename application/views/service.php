@@ -1,29 +1,33 @@
 <div class="container">
-    <h1>Property Marketing Solutions offers a range of services to the development and property consulting sectors</h1>
+    <h1>
+    	Property Marketing Solutions offers a range <br>
+    	of services to the development and property<br> 
+        consulting sectors
+    </h1>
     
-    <div class="col-xs-6">
+    <div class="col-xs-5">
         <h4>For property developers:</h4>
         <ul class="page-list">
-           <li>Strategic marketing - corporate and project branding and positioning</li>
-           <li>Marketing planning and implementation - from project budgeting and set up through to development of marking collateral and advertising and promotions.</li>
-           <li>Ongoing assessment and feedback of return on marking investment</li>
-           <li>Planning and management of development of online marketing tools i.e. websites, CRM</li>
-           <li>Appointment, briefing and management of external design, PR and research agencies</li>
-           <li>Effective media planning and management of media buying</li>
-           <li>Management of external supplies i.e. - signage, sales centre set up</li>
+           <li><b>Strategic marketing - </b><br>corporate and project branding and positioning</li>
+           <li><b>Marketing planning and implementation - </b><br>from project budgeting and set up through to development of <br>marking collateral and advertising and promotions.</li>
+           <li><b>Ongoing assessment </b><br>and feedback of return on marking investment</li>
+           <li><b>Planning and management </b><br>of development of online marketing tools i.e. websites, CRM</li>
+           <li><b>Appointment, briefing and </b><br>management of external design, PR and research agencies</li>
+           <li><b>Effective media planning <br>and management of media buying</li>
+           <li><b>Management of external supplies </b><br>i.e. - signage, sales centre set up</li>
             
         </ul>
     </div>
     
-    <div class="col-xs-6">
+    <div class="col-xs-offset-1 col-xs-5">
     	<h4>For agencies/property consultancies, engineers, planners & contractors:</h4>
         <ul class="page-list">
-        	<li>Strategic business development and marketing - corporate branding and positioning</li>
-            <li>Coaching staff on best practice for winning work and creating effective tendering</li>
-            <li>Assisting in maximising the profitability of our existing clients</li>
-            <li>Guidance on better management of the current and future pipeline of work</li>
-            <li>Implementing effective knowledge management practises to assist productivity</li>
-            <li>Planning and development of marketing materials i.e. company brochures, credibility statements</li>
+        	<li><b>Strategic business development and marketing - </b><br>corporate branding and positioning</li>
+            <li><b>Coaching staff </b><br>on best practice for winning work and creating effective tendering</li>
+            <li><b>Assisting in maximising the profitability </b><br>of our existing clients</li>
+            <li><b>Guidance </b><br>on better management of the current and future pipeline of work</li>
+            <li><b>Implementing effective knowledge management </b><br>practises to assist productivity</li>
+            <li><b>Planning and development </b><br>of marketing materials i.e. company brochures, <br>credibility statements</li>
         </ul>
     </div>
 </div>

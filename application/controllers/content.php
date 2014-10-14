@@ -29,10 +29,10 @@ class Content extends CI_Controller {
 		$this->load->view('common/footer');	
 	}
 	
-	function case_studies()
+	function case_studies($slug = 'mandalay-at-beveridge')
 	{
 		$this->load->view('common/header');
-		$this->load->view('case_studies');
+		$this->load->view('case_studies/'.str_replace('-','_',$slug));
 		$this->load->view('common/footer');	
 	}
 	

@@ -8,28 +8,28 @@
     
     <form class="form-horizontal">
     	<div class="form-group">
-    		<label class="col-xs-2 control-label">Email</label>
-        	<div class="col-xs-10">
+    		<label class="col-xs-2 control-label push-text">Email</label>
+        	<div class="col-xs-6">
             	<input type="text" class="form-control" name="name">
             </div>
         </div>
         
         <div class="form-group">
-    		<label class="col-xs-2 control-label">Email</label>
-        	<div class="col-xs-10">
+    		<label class="col-xs-2 control-label push-text">Email</label>
+        	<div class="col-xs-6">
             	<input type="email" class="form-control" name="email">
             </div>
         </div>
         
         <div class="form-group">
-    		<label class="col-xs-2 control-label">message</label>
-        	<div class="col-xs-10">
+    		<label class="col-xs-2 control-label push-text">message</label>
+        	<div class="col-xs-6">
             	<textarea class="form-control" name="message"></textarea>
             </div>
         </div>
         
         <div class="form-group">
-        	<div class="col-xs-offset-2 col-xs-10">
+        	<div class="col-xs-offset-2 col-xs-6">
             	<button class="btn btn-primary" type="reset">Clear</button>
                 <button class="btn btn-primary" type="button">Send</button>
             </div>

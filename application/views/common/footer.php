@@ -14,4 +14,11 @@
 
 		
 	</body>
+<script>
+$(function(){
+	$('.nav-dd').click(function(){
+		$('.sub-nav').toggle();
+	});
+});
+</script>
 </html>

@@ -81,11 +81,11 @@ div{
   	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
   	box-sizing: border-box;         /* Opera/IE 8+ */	
 }
-
+a,
 a.active,
 a:hover,
 a:focus{
-	color:#a2aa3d;	
+	color:#cae51c;	
 }
 hr{
 	border-top: 1px solid rgba(255,255,255,0.2);	
@@ -120,10 +120,16 @@ hr{
 	border:1px solid #a2aa3d;		
 }
 
+.form-control{
+	border-radius:0;	
+}
+
 
 /* Headers */
 #head-wrap{
-	padding-top:75px;	
+	padding-top:75px;
+	float:left;
+	height:200px;	
 }
 #logo{
 	width:400px;	
@@ -171,6 +177,21 @@ hr{
 .nav-alt li a:focus{
 	color:#cae51c;
 	text-decoration:none;	
+}
+/* dd = dropdown*/
+.nav-dd{
+	
+}
+.sub-nav{
+	display:none;
+	margin-left:20px;
+	width:100%;	
+}
+.sub-nav a{
+	text-transform:none !important;
+}
+.sub-nav-active > a{
+	color:#cae51c !important;	
 }
 
 #body-wrap{
@@ -231,10 +252,10 @@ hr{
 	clear:both;	
 }
 .push-text{
-	text-align:left;	
+	text-align:left !important;	
 }
 .pull-text{
-	text-align:right;	
+	text-align:right !important;	
 }
 
 

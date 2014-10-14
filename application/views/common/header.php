@@ -13,7 +13,7 @@
 <title>Property Ms</title>
 </head>
 <?php
-	$cur_page = $this->uri->segment(1);
+	$cur_page = $this->uri->segment(1) ? $this->uri->segment(1) : 'home';
 	if($cur_page == 'case-studies'){
 		$sub_page = 	$this->uri->segment(2);
 	}else{
@@ -23,24 +23,21 @@
 <body <?=$cur_page ? 'class="'.$cur_page.'-bg"' : '';?>>
 <header>
     <div id="head-wrap">
-        <div class="container">
-        	<div id="logo">
-        		<a href="<?=base_url();?>"><img src="<?=base_url();?>assets/img/logo.png" alt="logo.png" title="PropertyMS Logo" /></a>
-            </div>
-            
-            <div id="nav-wrap">
-            	<ul class="nav-alt">
-                	<li <?=$cur_page ? '' : 'class="active"';?>><a href="<?=base_url();?>">Home</a></li>
-                    <li <?=$cur_page == 'about-us' ? 'class="active"' : '';?>><a href="<?=base_url();?>about-us">About Us</a></li>
-                    <li <?=$cur_page == 'service' ? 'class="active"' : '';?>><a href="<?=base_url();?>service">Service</a></li>
-                    <li class="nav-dd <?=$cur_page == 'case-studies' ? 'active' : '';?>"><a href="#">Case Studies</a></li>
-                    <li class="sub-nav <?=$sub_page == "mandalay-at-beveridge"  ? 'sub-nav-active' : '';?>" <?=$cur_page == 'case-studies' ? 'style="display:block;"' : '';?>><a href="<?=base_url();?>case-studies/mandalay-at-beveridge">Mandalay at Beveridge</a></li>
-                    <li class="sub-nav <?=$sub_page == "mab-corporation"  ? 'sub-nav-active' : '';?>" <?=$cur_page == 'case-studies' ? 'style="display:block;"' : '';?>><a href="<?=base_url();?>case-studies/mab-corporation">MAB Corporation</a></li>
-                    <li <?=$cur_page == 'testimonials' ? 'class="active"' : '';?>><a href="<?=base_url();?>testimonials">Testimonials</a></li>
-                    <li <?=$cur_page == 'contact-us' ? 'class="active"' : '';?>><a href="<?=base_url();?>contact-us">Contact Us</a></li>
-                </ul>
-            </div>
-            
+        <div id="logo">
+            <a href="<?=base_url();?>"><img src="<?=base_url();?>assets/img/logo.png" alt="logo.png" title="PropertyMS Logo" /></a>
+        </div>
+        
+        <div id="nav-wrap">
+            <ul class="nav-alt">
+                <li <?=$cur_page == 'home' ? 'class="active"' : '';?>><a href="<?=base_url();?>">Home</a></li>
+                <li <?=$cur_page == 'about-us' ? 'class="active"' : '';?>><a href="<?=base_url();?>about-us">About Us</a></li>
+                <li <?=$cur_page == 'service' ? 'class="active"' : '';?>><a href="<?=base_url();?>service">Service</a></li>
+                <li class="nav-dd <?=$cur_page == 'case-studies' ? 'active' : '';?>"><a href="#">Case Studies</a></li>
+                <li class="sub-nav <?=$sub_page == "mandalay-at-beveridge"  ? 'sub-nav-active' : '';?>" <?=$cur_page == 'case-studies' ? 'style="display:block;"' : '';?>><a href="<?=base_url();?>case-studies/mandalay-at-beveridge">Mandalay at Beveridge</a></li>
+                <li class="sub-nav <?=$sub_page == "mab-corporation"  ? 'sub-nav-active' : '';?>" <?=$cur_page == 'case-studies' ? 'style="display:block;"' : '';?>><a href="<?=base_url();?>case-studies/mab-corporation">MAB Corporation</a></li>
+                <li <?=$cur_page == 'testimonials' ? 'class="active"' : '';?>><a href="<?=base_url();?>testimonials">Testimonials</a></li>
+                <li <?=$cur_page == 'contact-us' ? 'class="active"' : '';?>><a href="<?=base_url();?>contact-us">Contact Us</a></li>
+            </ul>
         </div>
     </div>
 	

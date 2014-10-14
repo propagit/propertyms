@@ -43,6 +43,20 @@ class Content extends CI_Controller {
 		$this->load->view('common/footer');	
 	}
 	
+	function privacy_policy()
+	{
+		$this->load->view('common/header');
+		$this->load->view('privacy_policy');
+		$this->load->view('common/footer');	
+	}
+	
+	function disclaimer()
+	{
+		$this->load->view('common/header');
+		$this->load->view('disclaimer');
+		$this->load->view('common/footer');	
+	}
+	
 	function contact_us()
 	{
 		$this->load->view('common/header');
@@ -56,19 +70,26 @@ class Content extends CI_Controller {
 		$email = $this->input->post('email',true);
 		$msg = $this->input->post('message');
 		
-		$valid = true;
-		if(!$name || !$email || !$msg){
-			$valid = false;	
-		}else{
-			if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-				$valid = false;	
-			}	
-		}
+
+		$rules = array(
+			array('field' => 'email', 'label' => 'Email', 'rules' => 'required|email'),
+			array('field' => 'name', 'label' => 'Name', 'rules' => 'required'),
+			array('field' => 'message', 'label' => 'Message', 'rules' => 'required')
+		);
 		
-		if($valid){
+		
+		$errors =  $this->_validate_input($this->input->post(), $rules);
+		
+		if (count($errors) > 0) {
+			# User input error
+			echo json_encode(array(
+				'ok' => false,
+				'errors' => $errors
+			));
+			return;
+		}else{
+			# proceed with sending email
 			$data_email['message'] = $this->input->post();
-			
-			//send contact email to admin
 			$message = $this->load->view('email/contact_us',$data_email,true);
 			$to = 'kaushtuv@propagate.com.au';
 			
@@ -79,16 +100,21 @@ class Content extends CI_Controller {
 					'subject' => 'Message Received From Contact Form - '.date('d F,Y'),
 					'message' => $message
 					);
-	
-			if($this->send_email($email_data)){
-			 	$this->session->set_flashdata('send_msg',true);
+			if($this->_send_email($email_data)){
+				  echo json_encode(array(
+					  'ok' => true,
+					  'errors' => ''
+				  ));
+				  return;
 			}else{
-				$this->session->set_flashdata('send_msg',false);
+				echo json_encode(array(
+					  'ok' => false,
+					  'errors' => 'contact failed'
+				));
+			   return;
 			}
-		}else{
-			$this->session->set_flashdata('send_msg',false);
 		}
-		redirect('contact-us');
+	
 	}
 	
 	
@@ -277,6 +303,29 @@ class Content extends CI_Controller {
 			#show_error($this->email->print_debugger());
 			return false;
 		} 
+	}
+	
+	function _validate_input($input, $rules)
+	{
+		$errors = array();
+		foreach($rules as $rule) {
+			$conditions = explode('|', $rule['rules']);
+			foreach($conditions as $condition) {
+				switch($condition) {
+					case 'required':
+							if (!isset($input[$rule['field']]) || $input[$rule['field']] == '') {
+								$errors[] = array('field' => $rule['field'], 'msg' => $rule['label'] . ' is required');
+							}
+						break;
+					case 'email':
+						if (!filter_var($input[$rule['field']],FILTER_VALIDATE_EMAIL)){
+							$errors[] = array('field' => $rule['field'], 'msg' => $rule['label'] . ' is invalid');	
+						}
+						break;
+				}
+			}
+		}
+		return $errors;
 	}
 	
 	

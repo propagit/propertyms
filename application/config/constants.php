@@ -38,7 +38,7 @@ define('FOPEN_READ_WRITE_CREATE_STRICT',		'x+b');
 
 /* Emails */
 define('INFO_EMAIL','info@propertyms.com.au');
-define('LIVE_SERVER',false);
+define('LIVE_SERVER',true);
 
 /* End of file constants.php */
 /* Location: ./application/config/constants.php */

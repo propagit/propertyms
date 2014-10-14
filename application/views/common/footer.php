@@ -5,7 +5,7 @@
             	<div class="container">
                     <span>
                         &copy; property marketing solutions. All rights reserved.<br>
-                        privacy policy disclaimer
+                        <a class="footer-links" href="<?=base_url();?>privacy-policy">privacy policy</a> <a class="footer-links" href="<?=base_url();?>disclaimer">disclaimer</a>
                     </span>
                 </div>
             </div>

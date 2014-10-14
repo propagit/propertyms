@@ -46,6 +46,8 @@ $route['service'] = "content/service";
 $route['testimonials'] = "content/testimonials";
 $route['contact-us'] = "content/contact_us";
 $route['case-studies/(:any)'] = "content/case_studies/$1";
+$route['privacy-policy'] = "content/privacy_policy";
+$route['disclaimer'] = "content/disclaimer";
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

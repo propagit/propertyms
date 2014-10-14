@@ -30,8 +30,11 @@ body{
 	height: 100%;
 	float: left;
 	background-color: transparent;
-	overflow-x:hidden;
+	/*overflow-x:hidden;*/
 	background-repeat: no-repeat;	
+	padding-left:125px;
+	padding-top:75px;
+	width:100%;
 }
 
 body,
@@ -93,18 +96,37 @@ hr{
 
 /* Background images */
 .about-us-bg{
-	background-image:url(../img/bg/about-bg.jpg);
+	background-image:url(../img/bg/home-bg.jpg);
 }
 .service-bg{
 	background-image:url(../img/bg/service-bg.jpg);	
 }
-
+.home-bg{
+	background-image:url(../img/bg/home-bg.jpg);	
+}
+.testimonials-bg{
+	background-image:url(../img/bg/testimonials-bg.jpg);		
+}
+.contact-us-bg{
+	background-image:url(../img/bg/contact-us-bg.jpg);		
+}
+.case-studies-bg{
+	background-image:url(../img/bg/home-bg.jpg);		
+}
+.privacy-policy-bg{
+	background-image:url(../img/bg/service-bg.jpg);	
+}
+.disclaimer-bg{
+	background-image:url(../img/bg/home-bg.jpg);		
+}
 /* Bootstrap Overwrites */
 
 .container{
-	width:1030px !important;	
+	width:1000px !important;	
 	float:left;
-	margin-left:125px;
+	/*margin-left:125px;*/
+	padding-left:0;
+	padding-right:0;
 }
 
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12{
@@ -114,8 +136,16 @@ hr{
 
 .btn{
 	border-radius:0;	
+	padding-left: 25px;
+	padding-right: 25px;
+	font-weight: 300;
 }
 .btn-primary{
+	background-color:#a2aa3d;
+	border:1px solid #a2aa3d;		
+}
+.btn-primary:hover,
+.btn-primary:focus{
 	background-color:#a2aa3d;
 	border:1px solid #a2aa3d;		
 }
@@ -123,21 +153,35 @@ hr{
 .form-control{
 	border-radius:0;	
 }
+.has-error .form-control{
+	border-width:2px;	
+}
+.bg-danger{
+	background-color:#a94442;		
+}
+.bg-success{
+	background-color:#3c763d;	
+}
+/* End Bootstrap Overwrites */
 
 
 /* Headers */
 #head-wrap{
-	padding-top:75px;
 	float:left;
 	height:200px;	
+	width:100%;
+	position:relative;
 }
 #logo{
 	width:400px;	
 	float:left;
+	position:absolute;
 }
 #nav-wrap{
-	width:600px;	
-	float:left;	
+	position:absolute;
+	float:left;
+	left:400px;	
+	right:0;
 }
 .nav-alt{
 	width:100%;
@@ -156,7 +200,7 @@ hr{
 	background-color:#000;
 }
 .nav-alt li.active > a{
-	position:absolute;
+	/*position:absolute;*/
 	width:100%;	
 }
 .nav-alt li.active:before{
@@ -184,7 +228,7 @@ hr{
 }
 .sub-nav{
 	display:none;
-	margin-left:20px;
+	padding-left:28px !important;
 	width:100%;	
 }
 .sub-nav a{
@@ -197,6 +241,7 @@ hr{
 #body-wrap{
 	margin-top:65px;
 	float:left;
+	width:100%;
 }
 .banner-wrap{
 	margin-top:25px;
@@ -224,7 +269,16 @@ hr{
 	font-weight:400;	
 }
 
+.form-alt label{
+	padding-left:15px;
+	color:#fff;	
+	font-weight:300;	
+}
 
+#contact-result{
+	padding:10px 15px;
+	margin-top:15px;	
+}
 
 #footer-wrap{
 	margin-top:50px;
@@ -237,7 +291,10 @@ hr{
 	font-weight:400;
 	line-height:19px;	
 }
-
+a.footer-links{
+	color:#5a5a5a;
+	padding-right:25px;		
+}
 
 
 

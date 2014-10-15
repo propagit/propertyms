@@ -10,9 +10,9 @@
 
 <!--jQuery -->
 <script src="<?=base_url();?>assets/js/jquery.js"></script>
-<title>Property Ms</title>
-<meta name="description" content="" />
-<meta name="keyword" content="" />
+<title><?=$title;?> - Property Ms</title>
+<meta name="description" content="<?=$desc;?>" />
+<meta name="keyword" content="<?=$keywords;?>" />
 </head>
 <?php
 	$cur_page = $this->uri->segment(1) ? $this->uri->segment(1) : 'home';

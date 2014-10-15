@@ -5,61 +5,111 @@ class Content extends CI_Controller {
 	function __construct()
 	{
 		parent::__construct();
-		error_reporting(E_ALL);
+		# error_reporting(E_ALL);
 	}
 	
 	function index()
 	{
-		$this->load->view('common/header');
+		$data = array(
+					'title' => 'Property Marketing Solutions',
+					'desc' => 'Melbourne-based Director, Susie Maskell, brings over 15 years of property 
+							   experience to Property Marketing Solutions to provide expert marketing 
+							   solutions for your property business.',
+					'keywords' => 'property marketing'
+					);
+		
+		$this->load->view('common/header',$data);
 		$this->load->view('home');
 		$this->load->view('common/footer');
 	}
 	
 	function about_us()
 	{
-		$this->load->view('common/header');
+		$data = array(
+					'title' => 'About Us',
+					'desc' => '',
+					'keywords' => ''
+					);
+		
+		$this->load->view('common/header',$data);
 		$this->load->view('about_us');
 		$this->load->view('common/footer');	
 	}
 	
 	function services()
 	{
-		$this->load->view('common/header');
+		$data = array(
+					'title' => 'Services',
+					'desc' => '',
+					'keywords' => ''
+					);
+		
+		$this->load->view('common/header',$data);
 		$this->load->view('services');
 		$this->load->view('common/footer');	
 	}
 	
 	function projects($slug = 'mandalay-at-beveridge')
 	{
-		$this->load->view('common/header');
+		$data = array(
+					'title' => ucwords(str_replace('-',' ',$slug)),
+					'desc' => '',
+					'keywords' => ''
+					);
+		
+		$this->load->view('common/header',$data);
 		$this->load->view('projects/'.str_replace('-','_',$slug));
 		$this->load->view('common/footer');	
 	}
 	
 	function testimonials()
 	{
-		$this->load->view('common/header');
+		$data = array(
+					'title' => 'Testimonials',
+					'desc' => '',
+					'keywords' => ''
+					);
+		
+		$this->load->view('common/header',$data);
 		$this->load->view('testimonials');
 		$this->load->view('common/footer');	
 	}
 	
 	function privacy_policy()
 	{
-		$this->load->view('common/header');
+		$data = array(
+					'title' => 'Privacy Policy',
+					'desc' => '',
+					'keywords' => ''
+					);
+		
+		$this->load->view('common/header',$data);
 		$this->load->view('privacy_policy');
 		$this->load->view('common/footer');	
 	}
 	
 	function disclaimer()
 	{
-		$this->load->view('common/header');
+		$data = array(
+					'title' => 'Disclaimer',
+					'desc' => '',
+					'keywords' => ''
+					);
+		
+		$this->load->view('common/header',$data);
 		$this->load->view('disclaimer');
 		$this->load->view('common/footer');	
 	}
 	
 	function contact_us()
 	{
-		$this->load->view('common/header');
+		$data = array(
+					'title' => 'Contact Us',
+					'desc' => '',
+					'keywords' => ''
+					);
+		
+		$this->load->view('common/header',$data);
 		$this->load->view('contact_us');
 		$this->load->view('common/footer');	
 	}

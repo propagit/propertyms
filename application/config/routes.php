@@ -42,10 +42,10 @@ $route['default_controller'] = "content";
 $route['404_override'] = '';
 
 $route['about-us'] = "content/about_us";
-$route['service'] = "content/service";
+$route['services'] = "content/services";
 $route['testimonials'] = "content/testimonials";
 $route['contact-us'] = "content/contact_us";
-$route['case-studies/(:any)'] = "content/case_studies/$1";
+$route['recent-projects/(:any)'] = "content/projects/$1";
 $route['privacy-policy'] = "content/privacy_policy";
 $route['disclaimer'] = "content/disclaimer";
 

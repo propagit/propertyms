@@ -16,8 +16,12 @@
         
         <p>
             Some of Susie's previous projects included award-winning residential 
-            development Springthrope, Modeina, Mandalay, Waywardly, Settlers Run, 
-            Moorookyle and and Arlington Rise.
+            development Springthrope, Modeina, Mandalay, Warralily, Settlers Run, 
+            Moorookyle and Arlington Rise.
+        </p>
+        
+        <p>
+        	Some of Property Marketing Solution's recent clients include: Dennis Family Corporation, Newland Developers, Australand and Independent Corporate Property.'
         </p>
     </div>
 </div>

@@ -3,7 +3,7 @@
     <p>
     	Phone: 0419 841 411<br>
         Address: PO Box 627 Hawthorn, Vic 3122.<br>
-       <em>COntact us via email using the form below</em>
+       <em>Contact us via email using the form below</em>
     </p>
     
     <form id="contact-form" class="form-horizontal form-alt">

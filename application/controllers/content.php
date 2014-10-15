@@ -22,17 +22,17 @@ class Content extends CI_Controller {
 		$this->load->view('common/footer');	
 	}
 	
-	function service()
+	function services()
 	{
 		$this->load->view('common/header');
-		$this->load->view('service');
+		$this->load->view('services');
 		$this->load->view('common/footer');	
 	}
 	
-	function case_studies($slug = 'mandalay-at-beveridge')
+	function projects($slug = 'mandalay-at-beveridge')
 	{
 		$this->load->view('common/header');
-		$this->load->view('case_studies/'.str_replace('-','_',$slug));
+		$this->load->view('projects/'.str_replace('-','_',$slug));
 		$this->load->view('common/footer');	
 	}
 	

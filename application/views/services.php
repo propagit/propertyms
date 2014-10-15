@@ -9,12 +9,12 @@
         <h4>For property developers:</h4>
         <ul class="page-list">
            <li><b>Strategic marketing - </b><br>corporate and project branding and positioning</li>
-           <li><b>Marketing planning and implementation - </b><br>from project budgeting and set up through to development of <br>marking collateral and advertising and promotions.</li>
-           <li><b>Ongoing assessment </b><br>and feedback of return on marking investment</li>
-           <li><b>Planning and management </b><br>of development of online marketing tools i.e. websites, CRM</li>
+           <li><b>Marketing planning and implementation - </b><br>from project budgeting and set up through to creation of marketing collateral, digital and print advertising and promotions.</li>
+           <li>Ongoing assessment and feedback of return on marketing investment</li>
+           <li><b>Planning and management </b><br>of online marketing including SEO, SEM, websites</li>
            <li><b>Appointment, briefing and </b><br>management of external design, PR and research agencies</li>
            <li><b>Effective media planning <br>and management of media buying</li>
-           <li><b>Management of external supplies </b><br>i.e. - signage, sales centre set up</li>
+           <li><b>Management of external suppliers </b><br>i.e. - signage, sales centre set up</li>
             
         </ul>
     </div>

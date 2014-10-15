@@ -281,7 +281,7 @@ class Content extends CI_Controller {
 		  'smtp_host' => 'ssl://smtp.googlemail.com',
 		  'smtp_port' => 465,
 		  'smtp_user' => 'propagate.au@gmail.com', // change it to yours
-		  'smtp_pass' => 'morem0n3y', // change it to yours
+		  'smtp_pass' => '', // change it to yours
 		  'mailtype' => 'html',
 		  'charset' => 'iso-8859-1',
 		  'wordwrap' => TRUE

@@ -1,3 +1,5 @@
+<!--jQuery -->
+<script src="<?=base_url();?>assets/js/bootstrap.min.js"></script>
 <div class="container">
 	<div class="col-xs-8">
 		<h1>It takes a property expert to truly <br>understand your property-related needs</h1>    
@@ -9,7 +11,20 @@
     </div>
     
     <div class="col-xs-12 banner-wrap">
-    	<img src="<?=base_url();?>assets/img/banners/home-banner.jpg">
+
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="<?=base_url();?>assets/img/banners/home-banner.jpg">
+            </div>
+            <div class="item">
+              <img src="<?=base_url();?>assets/img/banners/placeholder.jpg">
+            </div>
+          </div>
+
+        </div>
     </div>
     
 </div>

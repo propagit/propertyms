@@ -180,7 +180,7 @@ class Content extends CI_Controller {
 		if(LIVE_SERVER){
 			return $this->_send_email_live($data);
 		}else{
-			return $this->_send_email_live($data);
+			return $this->_send_email_localhost($data);
 		}
 	}
 

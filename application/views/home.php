@@ -1,4 +1,4 @@
-<!--jQuery -->
+<!--bootstrap js for carousel -->
 <script src="<?=base_url();?>assets/js/bootstrap.min.js"></script>
 <div class="container">
 	<div class="col-xs-8">

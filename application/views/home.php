@@ -20,7 +20,7 @@
               <img src="<?=base_url();?>assets/img/banners/home-banner.jpg">
             </div>
             <div class="item">
-              <img src="<?=base_url();?>assets/img/banners/placeholder.jpg">
+              <img src="<?=base_url();?>assets/img/banners/home-banner-2.jpg">
             </div>
           </div>
 

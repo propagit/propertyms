@@ -1,20 +1,20 @@
 <div class="container">
 	<div class="col-xs-12 banner-wrap page-banner">
-    	<img src="<?=base_url();?>assets/img/projects/mandalay-logo.png">
+    	<img src="<?=base_url();?>assets/img/projects/logo-warralily.png">
     </div>
     
 	<div class="col-xs-8">
-        <h1>Mandalay, Beveridge</h1>
+        <h1>Warralily, Armstrong Creek</h1>
         
         <h4>Client - Newland</h4>
         
         <ul class="page-list">
            <li>
            		<b>Services</b> - 
-                Strategic marketing management for project launch, branding development, day to day marketing management 
+                Marketing management services, strategic marketing for new precinct launch (Warralily Coast) 
            </li>
            <li>
-           		<b>Project launch</b> - 2009
+           		<b>Project launch</b> - 2010
            </li>
         </ul>
     </div>

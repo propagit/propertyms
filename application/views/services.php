@@ -10,7 +10,7 @@
         <ul class="page-list">
            <li><b>Strategic marketing - </b><br>corporate and project branding and positioning</li>
            <li><b>Marketing planning and implementation - </b><br>from project budgeting and set up through to creation of marketing collateral, digital and print advertising and promotions.</li>
-           <li>Ongoing assessment and feedback of return on marketing investment</li>
+           <li><b>Ongoing assessment and feedback of return on marketing investment</b></li>
            <li><b>Planning and management </b><br>of online marketing including SEO, SEM, websites</li>
            <li><b>Appointment, briefing and </b><br>management of external design, PR and research agencies</li>
            <li><b>Effective media planning <br>and management of media buying</li>

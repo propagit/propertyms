@@ -110,7 +110,7 @@ hr{
 .contact-us-bg{
 	background-image:url(../img/bg/contact-us-bg.jpg);		
 }
-.case-studies-bg{
+.recent-projects-bg{
 	background-image:url(../img/bg/home-bg.jpg);		
 }
 .privacy-policy-bg{
@@ -202,6 +202,9 @@ hr{
 	float:left;
 	left:400px;	
 	right:0;
+	background-position: -525px -75px;
+	background-repeat:no-repeat;
+	z-index: 100;
 }
 .nav-alt{
 	width:100%;
@@ -250,9 +253,14 @@ hr{
 	display:none;
 	padding-left:28px !important;
 	width:100%;	
+	
+	/*height:16px !important;*/
 }
 .sub-nav a{
 	text-transform:none !important;
+	
+	/*font-size:10px !important;
+	letter-spacing:3px !important;*/
 }
 .sub-nav-active > a{
 	color:#cae51c !important;	
@@ -269,6 +277,9 @@ hr{
 .page-banner{
 	margin-bottom:45px;	
 }
+.page-banner img{
+	max-height:191px;	
+}
 
 .page-list{
 	list-style:none;	
@@ -276,7 +287,7 @@ hr{
 	margin-left:20px;
 }
 .page-list li{
-	margin-bottom:30px;
+	margin-bottom:16px;
 	color:#fff;	
 	font-weight:300;
 }

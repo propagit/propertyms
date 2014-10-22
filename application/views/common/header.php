@@ -21,6 +21,18 @@
 	}else{
 		$sub_page = "";	
 	}
+	
+	$sub_navs = array(
+					array('url' => 'mandalay-at-beveridge', 'title' => 'Mandalay at Beveridge'), 
+					array('url' => 'mab-corporation', 'title' => 'MAB Corporation'),
+					array('url' => 'warralily', 'title' => 'Warraliy'),
+					array('url' => 'modeina', 'title' => 'Modeina'),
+					array('url' => 'manor-lakes', 'title' => 'Manor Lakes'),
+					array('url' => 'westbrook', 'title' => 'Westbrook'),
+					array('url' => 'ashbury', 'title' => 'Ashbury'),
+					array('url' => 'peppercorn-hill', 'title' => 'Peppercorn Hill'),
+					array('url' => 'corporate-branding', 'title' => 'Corporate Branding')
+				);
 ?>
 <body <?=$cur_page ? 'class="'.$cur_page.'-bg"' : '';?>>
 <header>
@@ -29,14 +41,19 @@
             <a href="<?=base_url();?>"><img src="<?=base_url();?>assets/img/logo.png" alt="logo.png" title="PropertyMS Logo" /></a>
         </div>
         
-        <div id="nav-wrap">
+        <div id="nav-wrap" <?=$cur_page ? 'class="'.$cur_page.'-bg"' : '';?>>
             <ul class="nav-alt">
                 <li <?=$cur_page == 'home' ? 'class="active"' : '';?>><a href="<?=base_url();?>">Home</a></li>
                 <li <?=$cur_page == 'about-us' ? 'class="active"' : '';?>><a href="<?=base_url();?>about-us">About Us</a></li>
                 <li <?=$cur_page == 'services' ? 'class="active"' : '';?>><a href="<?=base_url();?>services">Services</a></li>
                 <li class="nav-dd <?=$cur_page == 'recent-projects' ? 'active' : '';?>"><a href="#">Recent Projects</a></li>
-                <li class="sub-nav <?=$sub_page == "mandalay-at-beveridge"  ? 'sub-nav-active' : '';?>" <?=$cur_page == 'recent-projects' ? 'style="display:block;"' : '';?>><a href="<?=base_url();?>recent-projects/mandalay-at-beveridge">Mandalay at Beveridge</a></li>
-                <li class="sub-nav <?=$sub_page == "mab-corporation"  ? 'sub-nav-active' : '';?>" <?=$cur_page == 'recent-projects' ? 'style="display:block;"' : '';?>><a href="<?=base_url();?>recent-projects/mab-corporation">MAB Corporation</a></li>
+                	
+                    <?php foreach($sub_navs as $nav){ ?>
+                    	<li class="sub-nav <?=$sub_page == $nav['url']  ? 'sub-nav-active' : '';?>">
+                    		<a href="<?=base_url();?>recent-projects/<?=$nav['url'];?>"><?=$nav['title'];?></a>
+                    	</li>	
+                    <?php } ?>
+
                 <li <?=$cur_page == 'testimonials' ? 'class="active"' : '';?>><a href="<?=base_url();?>testimonials">Testimonials</a></li>
                 <li <?=$cur_page == 'contact-us' ? 'class="active"' : '';?>><a href="<?=base_url();?>contact-us">Contact Us</a></li>
             </ul>

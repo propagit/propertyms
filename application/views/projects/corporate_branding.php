@@ -4,17 +4,17 @@
     </div>
     
 	<div class="col-xs-8">
-        <h1>Various commercial, industrial, <br>residential & MAB </h1>
+        <h1>Corporate branding/re-branding</h1>
         
-        <h4>Client - MAB</h4>
+        <h4>Client - ICP</h4>
         
         <ul class="page-list">
            <li>
            		<b>Services</b> - 
-                Day to day marketing management  
+                New corporate identity development and then subsequent re-branding
            </li>
            <li>
-           		<b>Project launch</b> - 2007
+           		<b>Project launch</b> - 2013/2014
            </li>
         </ul>
     </div>

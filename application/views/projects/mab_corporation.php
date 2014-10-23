@@ -1,7 +1,7 @@
 <div class="container">
-	<div class="col-xs-12 banner-wrap page-banner">
+	<!--<div class="col-xs-12 banner-wrap page-banner">
     	<img src="<?=base_url();?>assets/img/banners/placeholder.jpg">
-    </div>
+    </div>-->
     
 	<div class="col-xs-8">
         <h1>Various commercial, industrial, <br>residential & MAB </h1>

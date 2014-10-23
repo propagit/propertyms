@@ -17,10 +17,10 @@
           <!-- Wrapper for slides -->
           <div class="carousel-inner">
             <div class="item active">
-              <img src="<?=base_url();?>assets/img/banners/home-banner.jpg">
+              <a href="<?=base_url();?>recent-projects/mandalay-at-beveridge"><img src="<?=base_url();?>assets/img/banners/home-banner.jpg"></a>
             </div>
             <div class="item">
-              <img src="<?=base_url();?>assets/img/banners/home-banner-2.jpg">
+              <a href="<?=base_url();?>contact-us"><img src="<?=base_url();?>assets/img/banners/home-banner-2.jpg"></a>
             </div>
           </div>
 

@@ -45,6 +45,7 @@ $route['about-us'] = "content/about_us";
 $route['services'] = "content/services";
 $route['testimonials'] = "content/testimonials";
 $route['contact-us'] = "content/contact_us";
+$route['recent-projects'] = "content/projects";
 $route['recent-projects/(:any)'] = "content/projects/$1";
 $route['privacy-policy'] = "content/privacy_policy";
 $route['disclaimer'] = "content/disclaimer";

@@ -16,9 +16,7 @@
         
         <p>
         	Some of Property Marketing Solution's recent clients include: 
-            Dennis Family Corporation, Newland Developers, Australand and Independent Corporate Property,
-            Springthrope, Modeina, Mandalay, Warralily, Settlers Run, 
-            Moorookyle and Arlington Rise.
+            Dennis Family Corporation, Newland Developers, Australand and Independent Corporate Property.
         </p>
     </div>
 </div>

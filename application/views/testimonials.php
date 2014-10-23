@@ -19,7 +19,7 @@
         
         <hr>
         
-        <h4>Peter Hood.</h4>
+        <h4>Peter Hood</h4>
         <p>
             "Having worked with Susie Maskell for 2 years in the past, I can attest to her 
             professional and thorough approach. I would recommend her involvement as a
@@ -30,7 +30,7 @@
         
         <h4>Rod Binedell, Development Manager, Newland</h4>
         <p>
-            The Mandalay Project would not have been as successful in its launch were it not for the skills 
+            "The Mandalay Project would not have been as successful in its launch were it not for the skills 
             and assistance provided by Property Marketing Solutions. Susie was integral to this project's 
             success through her knowledge of the current market and the strategies that she outlined and 
             undertook. Taking ideas from concept to completion, Susie ensured that the Mandalay project 
@@ -42,7 +42,7 @@
         <p>
             Given the importance of such a project it was re-assuring to have Property Marketing Solutions 
             on our team. I would recommend Susie and Property Marketing Solutions to any developer who is 
-            seeking to ensure a successful launch of a project or a stage.
+            seeking to ensure a successful launch of a project or a stage."
         </p>
     </div>
 </div>

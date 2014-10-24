@@ -11,11 +11,13 @@
         <ul class="page-list">
            <li>
            		<b>Services</b> - 
-                NStrategic marketing management for project launch, branding development
+                Strategic marketing management for project launch, branding development
            </li>
            <li>
            		<b>Project launch</b> - 2014
            </li>
         </ul>
+        
+        <?php $this->view('projects/common/project_nav');?>
     </div>
 </div>

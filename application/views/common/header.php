@@ -23,15 +23,15 @@
 	}
 	
 	$sub_navs = array(
-					array('url' => 'mandalay-at-beveridge', 'title' => 'Mandalay at Beveridge'), 
-					array('url' => 'mab-corporation', 'title' => 'MAB Corporation'),
-					array('url' => 'warralily', 'title' => 'Warraliy'),
 					array('url' => 'modeina', 'title' => 'Modeina'),
-					array('url' => 'manor-lakes', 'title' => 'Manor Lakes'),
+					array('url' => 'manor-lakes', 'title' => 'Lollipop Hill at Manor Lakes'),
 					array('url' => 'westbrook', 'title' => 'Westbrook'),
 					array('url' => 'ashbury', 'title' => 'Ashbury'),
 					array('url' => 'peppercorn-hill', 'title' => 'Peppercorn Hill'),
-					array('url' => 'corporate-branding', 'title' => 'Corporate Branding')
+					array('url' => 'warralily', 'title' => 'Warralily'),	
+					array('url' => 'mandalay-at-beveridge', 'title' => 'Mandalay'), 
+					array('url' => 'corporate-branding', 'title' => 'Corporate Branding'),
+					array('url' => 'mab-corporation', 'title' => 'MAB Corporation')	
 				);
 ?>
 <body <?=$cur_page ? 'class="'.$cur_page.'-bg"' : '';?>>

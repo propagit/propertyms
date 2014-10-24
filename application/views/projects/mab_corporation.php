@@ -1,10 +1,10 @@
 <div class="container">
-	<!--<div class="col-xs-12 banner-wrap page-banner">
-    	<img src="<?=base_url();?>assets/img/banners/placeholder.jpg">
-    </div>-->
+	<div class="col-xs-12 banner-wrap page-banner">
+    	<img src="<?=base_url();?>assets/img/projects/mab-logo.jpg">
+    </div>
     
 	<div class="col-xs-8">
-        <h1>Various commercial, industrial, <br>residential & MAB </h1>
+        <h1>Various commercial, industrial, <br>residential & MAB Funds</h1>
         
         <h4>Client - MAB</h4>
         
@@ -17,5 +17,7 @@
            		<b>Project launch</b> - 2007
            </li>
         </ul>
+        
+        <?php $this->view('projects/common/project_nav');?>
     </div>
 </div>

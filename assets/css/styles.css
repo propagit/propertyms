@@ -329,7 +329,17 @@ a.footer-links{
 	color:#5a5a5a;
 	padding-right:25px;		
 }
-
+.project-prev,
+.project-next{
+	cursor:pointer;
+	margin-top:20px;	
+}
+.project-prev{
+	float:left;	
+}
+.project-next{
+	float:right;
+}
 
 
 /* Helpers */

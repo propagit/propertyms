@@ -49,7 +49,7 @@ class Content extends CI_Controller {
 		$this->load->view('common/footer');	
 	}
 	
-	function projects($slug = 'mandalay-at-beveridge')
+	function projects($slug = 'modeina')
 	{
 		$data = array(
 					'title' => ucwords(str_replace('-',' ',$slug)),

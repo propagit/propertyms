@@ -17,5 +17,7 @@
            		<b>Project launch</b> - 2014
            </li>
         </ul>
+        
+        <?php $this->view('projects/common/project_nav');?>
     </div>
 </div>

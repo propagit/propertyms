@@ -4,7 +4,7 @@
     </div>
     
 	<div class="col-xs-8">
-        <h1>Peppercorn Hill</h1>
+        <h1>Peppercorn Hill, Woodstock</h1>
         
         <h4>Client - Dennis Family Corporation</h4>
         
@@ -17,5 +17,7 @@
            		<b>Project launch</b> - Est. 2015
            </li>
         </ul>
+        
+        <?php $this->view('projects/common/project_nav');?>
     </div>
 </div>

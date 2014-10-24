@@ -1,12 +1,12 @@
 <div class="container">
-	<!--<div class="col-xs-12 banner-wrap page-banner">
-    	<img src="<?=base_url();?>assets/img/banners/placeholder.jpg">
-    </div>-->
+	<div class="col-xs-12 banner-wrap page-banner">
+    	<img src="<?=base_url();?>assets/img/projects/icp-logo.jpg">
+    </div>
     
 	<div class="col-xs-8">
         <h1>Corporate branding/re-branding</h1>
         
-        <h4>Client - ICP</h4>
+        <h4>Client - ICP - Independent Corporate Property</h4>
         
         <ul class="page-list">
            <li>
@@ -17,5 +17,7 @@
            		<b>Project launch</b> - 2013/2014
            </li>
         </ul>
+        
+        <?php $this->view('projects/common/project_nav');?>
     </div>
 </div>

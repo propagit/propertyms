@@ -1,11 +1,10 @@
 <div class="container">
 	<div class="col-xs-12 banner-wrap page-banner">
     	<img src="<?=base_url();?>assets/img/projects/ASHBURYv1.png">
+        <h1>Ashbury, <br>Armstrong Creek</h1>
     </div>
     
 	<div class="col-xs-8">
-        <h1>Ashbury, Armstrong Creek</h1>
-        
         <h4>Client - Dennis Family Corporation</h4>
         
         <ul class="page-list">

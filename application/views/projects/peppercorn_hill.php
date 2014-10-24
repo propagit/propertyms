@@ -1,11 +1,10 @@
 <div class="container">
 	<div class="col-xs-12 banner-wrap page-banner">
     	<img src="<?=base_url();?>assets/img/projects/Peppercorn-Hill_Logo.png">
+        <h1>Peppercorn Hill, <br>Woodstock</h1>
     </div>
     
 	<div class="col-xs-8">
-        <h1>Peppercorn Hill, Woodstock</h1>
-        
         <h4>Client - Dennis Family Corporation</h4>
         
         <ul class="page-list">

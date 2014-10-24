@@ -1,11 +1,10 @@
 <div class="container">
 	<div class="col-xs-12 banner-wrap page-banner">
     	<img src="<?=base_url();?>assets/img/projects/logo-warralily.png">
+        <h1>Warralily, <br>Armstrong Creek</h1>
     </div>
     
 	<div class="col-xs-8">
-        <h1>Warralily, Armstrong Creek</h1>
-        
         <h4>Client - Newland</h4>
         
         <ul class="page-list">

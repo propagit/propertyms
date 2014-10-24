@@ -278,9 +278,17 @@ hr{
 	margin-bottom:45px;	
 }
 .page-banner img{
-	max-height:191px;	
+	max-height:126px;	
+	max-width:252px;
 }
-
+.page-banner h1{
+	display: inline-block;
+	padding-bottom: 0 !important;
+	vertical-align: bottom;
+	line-height: 37px;
+	margin-bottom: -5px;
+	margin-left: 30px;	
+}
 .page-list{
 	list-style:none;	
 	padding:0;

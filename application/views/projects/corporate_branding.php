@@ -1,11 +1,10 @@
 <div class="container">
 	<div class="col-xs-12 banner-wrap page-banner">
-    	<img src="<?=base_url();?>assets/img/projects/icp-logo.jpg">
+    	<img src="<?=base_url();?>assets/img/projects/icp-logo.png">
+        <h1>Corporate branding/re-branding</h1>
     </div>
     
 	<div class="col-xs-8">
-        <h1>Corporate branding/re-branding</h1>
-        
         <h4>Client - ICP - Independent Corporate Property</h4>
         
         <ul class="page-list">

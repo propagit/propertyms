@@ -1,11 +1,10 @@
 <div class="container">
 	<div class="col-xs-12 banner-wrap page-banner">
     	<img src="<?=base_url();?>assets/img/projects/Modeina-logo.png">
+        <h1 style="margin-bottom:14px;">Modeina, Burnside</h1>
     </div>
     
 	<div class="col-xs-8">
-        <h1>Modeina, Burnside</h1>
-        
         <h4>Client - Dennis Family Corporation</h4>
         
         <ul class="page-list">

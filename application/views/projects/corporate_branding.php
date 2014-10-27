@@ -1,7 +1,7 @@
 <div class="container">
 	<div class="col-xs-12 banner-wrap page-banner">
     	<img src="<?=base_url();?>assets/img/projects/ICP_rev.gif">
-        <h1>Corporate branding/re-branding</h1>
+        <h1 style="margin-bottom:14px;">Corporate branding/re-branding</h1>
     </div>
     
 	<div class="col-xs-8">

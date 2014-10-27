@@ -1,6 +1,6 @@
 <div class="container">
 	<div class="col-xs-12 banner-wrap page-banner">
-    	<img src="<?=base_url();?>assets/img/projects/logo-warralily.png">
+    	<img src="<?=base_url();?>assets/img/projects/Warralily_Logo_reverse.gif">
         <h1>Warralily, <br>Armstrong Creek</h1>
     </div>
     

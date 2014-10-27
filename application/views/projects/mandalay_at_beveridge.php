@@ -1,6 +1,6 @@
 <div class="container">
 	<div class="col-xs-12 banner-wrap page-banner">
-    	<img src="<?=base_url();?>assets/img/projects/mandalay-logo.png">
+    	<img src="<?=base_url();?>assets/img/projects/mandalay-logo_rev.gif">
         <h1 style="margin-bottom:11px;">Mandalay, Beveridge</h1>
     </div>
     

@@ -4,6 +4,20 @@
     
     <div class="col-xs-8">  
     	<h1>What are others saying about <br>Property Marketing Solutions?</h1>
+        
+        <h4>Roger Bollen</h4>
+        <p>
+			"Susie worked with me at Dennis Family Developments for a number of years. Originally 
+            contracted due to her exceptional skills in launching new projects to the market, she also 
+            helped with existing projects The Hunt Club and Manor Lakes when required. 
+            Susie was involved in the strategic planning and launch of Modeina in Burnside, 
+            the planning for the launch of Westbrook, Tarneit and Ashbury, Armstrong Creek.  
+            She was also involved in the branding of other new projects in the pipeline, including 
+            Sienna Park, Clyde North and Peppercorn Hill, Woodstock. Her professionalism, strategy 
+            development, attention to detail and deep understanding of the industry have			 
+            all been of great value to the marketing and project teams."
+        </p>
+        
           
         <h4>David Parsons, Director, Parsons Property Development Management</h4>
         <p>
